@@ -94,11 +94,10 @@ body {
     position: relative;
     top: 120px;
     margin-left: 360px;
-    /* border: 1px solid black; */
     border-radius: 10px;
     margin-right: 290px;
     padding: 30px;
     padding-bottom: 20px;
-    /* padding-right: 10px; */
+    padding-right: 10px; 
     background-color: #ECF7F5;
 }
