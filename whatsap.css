@@ -68,9 +68,9 @@ body {
 }
 .back {
     position: relative;
-    height: 87vh;
+    height: 85vh;
     background-color: #F9F9FA;
-    top: 110px;
+    top: 114px;
     width: 80vw;
     left: -70px;
 }

@@ -72,13 +72,12 @@
 .vid {
     position: relative;
     top: 120px;
-    /* margin-left: 50px;  */
-    /* border: 1px solid black; */
-    /* border-radius: 10px; */
+    margin-left: 50px;  
+    border-radius: 10px; 
     margin-right: 290px;
     /* padding: 30px; */
-    /* padding-bottom: 20px; */
-    /* padding-right: 10px; */
+    padding-bottom: 20px; 
+    padding-right: 10px; 
     background-color: #ECF7F5;
     width: fit-content;
 }
@@ -93,4 +92,104 @@
     color: #158f75;
     margin-right: 50px;
 }
+}
+
+@media only screen and (min-width: 850px){
+    .clas1{
+        border: 1px thin solid ;
+        border-width: 200px;
+        height: 220px;
+        background-color: #00A481;
+        position: relative;
+        
+    }
+    
+    .class2 {
+        border: 1px solid;
+        height: 155vh;
+        background-color: rgb(194, 218, 226);
+        position: absolute;
+    } 
+    .class3 {
+        border: 1px thin solid;
+        border-width: 150px;
+        height: 158vh;
+        width: 80vw;
+        background-color: white;
+        box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.265);
+        border-radius: 3px;
+        position: absolute;
+        top: 100px;
+        left: 140px;
+    } 
+    .whats {
+        font-weight: 500; 
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: large;
+        position: relative;
+        top: 17px;
+        margin-left: 20px;
+    
+    }
+    .wrap {
+        position: relative;
+        top: 30px;
+        margin-left: 135px !important;
+    }
+    .barcode {
+        position: relative;
+        float: right;
+        padding: 85px;
+    }
+    .post {
+        position: relative;
+        margin-top: 85px;
+        margin-left: 70px;
+        font-size: 38px;
+        font-weight: none;
+        color: rgba(0, 0, 0, 0.525);
+    }
+    .list {
+        position: relative;
+        font-size: 25px;
+        line-height: 55px;
+        margin-top: 55px;
+        color: rgba(0, 0, 0, 0.811);
+    }
+    .back {
+        position: relative;
+        height: 85vh;
+        background-color: #F9F9FA;
+        top: 114px;
+        width: 80vw;
+        left: -70px;
+    }
+    .span6 {
+        position: relative;
+        align-items: center;
+        margin-left: 530px;
+        top: 50px;
+        font-weight: lighter;
+    }
+    #span {
+        position: relative;
+        margin-left: 490px;
+        top: 70px;
+        font-weight: 500;
+        font-size: 17px;
+        color: #158f75;
+        margin-right: 50px;
+    }
+    .vid {
+        position: relative;
+        top: 120px;
+        margin-left: 360px;
+        border-radius: 10px;
+        margin-right: 290px;
+        padding: 30px;
+        padding-bottom: 20px;
+        padding-right: 10px; 
+        background-color: #ECF7F5;
+    }
 }
